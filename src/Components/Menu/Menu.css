@@ -1,0 +1,48 @@
+.menu{
+  margin-left: 3rem;
+}
+.menu h1{
+  text-align: center;
+}
+form{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+form input{
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: 1px solid orange;
+}
+form input:nth-of-type(2){
+  background: orange;
+}
+form input:nth-of-type(2):hover{
+  color: orange;
+  background: white;
+  cursor: pointer;
+}
+
+
+.recipe-img{
+  height: 250px;
+  width: 250px;
+  border-radius: 4px;
+}
+.recipe-name{
+  max-width: 200px;
+  margin: 12px 0px;
+  text-align: center;
+  
+}
+
+.menu-grid{
+  display: grid;
+  margin-top: 4rem;
+  grid-template-columns: auto auto auto auto;
+  align-items: baseline;
+}
+.recipe-sec{
+  margin-left: 2rem;
+}

@@ -1,0 +1,54 @@
+.hero{
+  display: flex;
+  margin-top: 5rem;
+}
+.left-hero{
+  margin-left: 3rem;
+}
+.left-hero h1{
+  font-size: 3rem;
+}
+.left-hero span{
+  color: orange;
+}
+.left-hero p{
+  line-height: 20px;
+  color: gray;
+}
+.left-hero .btn-home{
+  margin-top: 1rem;
+  padding: 10px 20px;
+  color: orange;
+  border-radius: 4px;
+  background: white;
+  border: 1px solid orange;
+}
+.left-hero .btn-home:hover{
+  color: white;
+  background: orange;
+}
+.right-hero{
+  margin-left: 30%;
+}
+.right-hero img{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  margin-right: 5rem;
+  box-shadow: 0 0px 20px rgba(36,39,37,0.3);
+  animation: biani 4.5s linear infinite alternate;
+}
+@keyframes biani{
+  0%{
+    border-radius: 48% 52% 57% 43% / 34% 44% 56% 66%;
+  }
+  25%{
+    border-radius: 62% 38% 64% 36% / 34% 55% 45% 66%;
+  }
+  50%{
+    border-radius: 43% 57% 51% 49% / 33% 42% 58% 67%;
+  }
+  100%{
+    border-radius: 40% 60% 43% 57% / 52% 32% 68% 48%;
+  }
+}

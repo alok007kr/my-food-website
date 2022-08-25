@@ -1,0 +1,21 @@
+.footer{
+  background: orange;
+  margin: 0;
+  padding: 0;
+}
+.socialink-cont{
+  display: flex;
+  margin-left: 25rem;
+  gap: 25px;
+}
+.socialink-cont button{
+  padding: 10px 15px;
+  display: flex;
+  background: white;
+  border: 1px solid orange;
+  border-radius : 5px;
+}
+.copyright{
+  color: white;
+  text-align: center;
+}

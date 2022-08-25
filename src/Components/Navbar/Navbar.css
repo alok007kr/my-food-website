@@ -1,0 +1,33 @@
+.nav-container{
+  display: flex;
+  box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+    rgba(0,0,0,0.93) 0px 30px 60px -30px;
+}
+.logo{
+  margin-left: 2rem;
+}
+
+.nav-link{
+  margin-left: 23rem;
+}
+.nav-link ul{
+  display: flex;
+  gap: 3rem;
+}
+.nav-link ul li{
+  list-style-type: none;
+}
+.nav-link ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: bold;
+}
+.nav-link ul li a:hover{
+  color: pink;
+}
+.nav-link img{
+  position: relative;
+  transform: scale(0.8);
+  margin-left: 40px;
+  top: -6px;
+}

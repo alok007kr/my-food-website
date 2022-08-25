@@ -1,0 +1,44 @@
+.rev-cont{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.rev-cont h1{
+  text-align: center;
+}
+.rev-cont span{
+  color: orange;
+}
+.rev-card{
+  display: flex;
+  gap: 20px;
+}
+.container-card{
+  height: 200px;
+  width: 300px;
+  border: 1px solid orange;
+  margin-top: 6rem;
+  border-radius: 5px;
+  
+}
+.container-card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid orange;
+  position: relative;
+  top: -50px;
+  margin-left: 5rem;
+}
+.container-card h3{
+  text-align: center;
+  position: relative;
+  top: -3rem;
+  left: -1rem;
+}
+.container-card p{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: gray;
+  position: relative;
+  top: -3rem;
+}

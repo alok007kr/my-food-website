@@ -1,0 +1,21 @@
+.recipe-cont{
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.recipe-cont h1{
+  text-align: center;
+}
+.recipe-cont p{
+  color: gray;
+  line-height: 25px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 8rem;
+}
+.recipe-cont img {
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 300px;
+  width: 700px;
+  margin-left: 15rem;
+}
