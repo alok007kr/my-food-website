@@ -4,8 +4,8 @@
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {
-    "test": "echo\"Error:no test specified\" && exit 1"
-    "start": "node index.jsx",
+    "test": "echo\"Error:no test specified\" && exit 1",
+    "start": "node index.js",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
