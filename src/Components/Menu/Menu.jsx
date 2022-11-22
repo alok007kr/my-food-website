@@ -20,7 +20,7 @@ a4b9a4804a7214fd42439f8c8d46ae56`;
                              
   }
 
-  cons submit = (e) =>{
+  const submit = (e) =>{
     e.preventDefault();
     getRecipes();
   }
